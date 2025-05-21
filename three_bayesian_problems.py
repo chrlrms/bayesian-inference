@@ -99,7 +99,7 @@ plt.figure(figsize=(10, 4))
 
 plt.subplot(1, 2, 1)
 plt.hist(mu_samples, bins=30, density=True, color='goldenrod', edgecolor='black', alpha=0.7)
-plt.title('Posterior of Average Salary (₱μ)')
+plt.title('Posterior of Average Salary in ₱ (μ)')
 plt.xlabel('₱ Monthly Salary')
 plt.ylabel('Density')
 
